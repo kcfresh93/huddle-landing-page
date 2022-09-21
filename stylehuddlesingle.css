@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+.container{
+    background-image: url(./huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+    margin-top: 5%;
+    background-color:  hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+  background-size: contain;
+    width: 100%;
+    height: 87vh;
+   
+}
+
+.sub-container{
+    padding: 60px 30px;
+}
+
+.sub-container img{
+    width: 15%;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 180px;
+   margin-top: 30px;
+}
+
+.mockups img{
+    width: 140%;
+}
+
+.text{
+    margin-top: 35px;
+   
+}
+
+.text h1{
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: 600px;
+}
+
+p{
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgb(235, 223, 223);
+}
+
+.text a{
+    background-color: white;
+    text-decoration: none;
+    padding: 12px 40px;
+    color: rgb(37, 37, 139);
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400px;
+}
+
+.text a:hover{
+    background-color:  hsl(300, 69%, 71%);
+    color: white;
+}
+
+.social{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.social img{
+    width: 60%;
+    border-radius: 50%;
+    padding: 12px 12px;
+    border: 2px solid white;
+}
+
+.social img:hover{
+    background-color:  hsl(300, 69%, 71%);
+
+}
